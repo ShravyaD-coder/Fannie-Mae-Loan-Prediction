@@ -54,7 +54,27 @@ The project uses two datasets:
 - **Classification:**  
   - Logistic regression to predict `FORECLOSURE`.
   - Selected top 1,000 loans by predicted foreclosure probability
- 
+---
+
+## Libraries Used
+
+This project was implemented in Python using the following key libraries and tools:
+
+- `pandas` — for data manipulation and analysis
+- `numpy` — for numerical operations
+- `requests` — to handle any data retrieval from remote sources
+- `import_ipynb` — to import functions from other notebooks (e.g. `FunctionToReadData.ipynb`)
+- `matplotlib` & `seaborn` — for data visualization (box plots, distributions, correlation heatmaps)
+- `scikit-learn (sklearn)`:
+  - `train_test_split` for splitting data
+  - `StandardScaler` for feature scaling
+  - `PCA` for dimensionality reduction
+  - `GammaRegressor` for modeling `NMONTHS`
+  - `LogisticRegression` for modeling `FORECLOSURE`
+  - `mean_squared_error`, `mean_absolute_error`, `r2_score` for evaluation metrics
+
+---
+
 ## Note
 - This entire processing and modeling pipeline is **tailored specifically to the dataset provided to me for the final assessment** in 553.688 Computing for Applied Mathematics.
 - Running this code on a different dataset (or even on another student’s data from the same course) will likely result in errors, due to differences in data distributions, unique preprocessing needs, and file specifications.
