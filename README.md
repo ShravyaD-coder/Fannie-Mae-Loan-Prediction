@@ -1,7 +1,7 @@
 # Fannie Mae Loan Performance Prediction
 
 ## Overview
-This project was completed as the final project for **553.688 Computing for Applied Mathematics (Fall 2024)**. It focuses on building predictive models using Fannie Mae mortgage loan data to:
+The project focuses on building predictive models using Fannie Mae mortgage loan data to:
 - Predict the **number of months payments (NMONTHS)** are made on each mortgage.
 - Predict the likelihood of **foreclosure (FORECLOSURE)** for each mortgage.
 
@@ -76,8 +76,9 @@ This project was implemented in Python using the following key libraries and too
 ---
 
 ## Note
-- This entire processing and modeling pipeline is **tailored specifically to the dataset provided to me for the final assessment** in 553.688 Computing for Applied Mathematics.
-- Running this code on a different dataset (or even on another student’s data from the same course) will likely result in errors, due to differences in data distributions, unique preprocessing needs, and file specifications.
-- The actual training and test datasets used in this project are **not included in this repository**, as they were provided exclusively for coursework and cannot be shared.
+- This project is my submission for the final assignment of the course **553.688 Computing for Applied Mathematics (Fall 2024)** (Instructor Prof. Dan Naiman) at Johns Hopkins University
+- This entire processing and modeling pipeline is **tailored specifically to the dataset provided to me for the final assessment**
+- Running this code on a different dataset (or even on another student’s data from the same course) will likely result in errors, due to differences in data distributions, unique preprocessing needs, and file specifications
+- The actual training and test datasets used in this project are **not included in this repository**, as they were provided exclusively for coursework and cannot be shared
 
 
